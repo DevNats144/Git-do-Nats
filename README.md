@@ -1,2 +1,3 @@
 # Git-do-Zero
-Aprendendo o git e GitHub
+Aperfeiçoando o git e GitHub
+
