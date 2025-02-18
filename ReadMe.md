@@ -9,4 +9,4 @@
 
 📫 Como entrar em contato comigo " natanielg73@gmail.com "
 
-⚡ Crescimento contínuo nesta grande área.     
+⚡ Crescimento contínuo nesta área.
