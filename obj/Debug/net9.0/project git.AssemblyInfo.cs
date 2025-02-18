@@ -13,11 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("project git")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cc72f8256be3bfa492173f68d3a7c1a787b7482")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab74049a2e43dc7c007c5f30944ae6d215251aa3")]
->>>>>>> Nats_B
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06cc1fbb86ab94711f9a233d2bf2106ea3e3c086")]
 [assembly: System.Reflection.AssemblyProductAttribute("project git")]
 [assembly: System.Reflection.AssemblyTitleAttribute("project git")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
