@@ -1,9 +1,9 @@
 
-👋 Olá, sou 'Nataniel Gomes'
+👋 Olá, sou @DevNats144
 
 👀 Estou realmente interessado em dar minha contribuição em um projeto de código aberto.
 
-🌱 Atualmente estou aprendendo Git e Desenvolvimento web
+🌱 Atualmente estou aprendendo Git e desenvolvimento web
 
 💞️ Estou procurando colaborar em projetos reais
 
