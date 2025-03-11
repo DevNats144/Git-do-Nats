@@ -1,0 +1,274 @@
+
+
+    html{
+
+        margin: 0;
+        padding: 0;
+        font-family:'Roboto';
+    }
+
+
+    ul{
+
+        list-style-type: none;
+        
+    }
+
+    a{
+        text-decoration: none;
+        color:inherit;
+        
+    }
+
+        a:hover{
+        text-decoration: underline;
+        
+
+        }
+
+
+    #nav_bar {
+
+        float: right;
+    }
+
+    #nav_bar li{
+
+            display:inline-block;
+            margin: 8px;
+    }
+
+    #nav_bar #in{
+
+        background-color: #4887ef;
+        margin-right: 9px;
+        padding: 5px 10px;
+        border-radius:3px ;
+        font-weight: bold;
+        color: white;
+    
+    }
+
+#imer img{
+
+    display: block;
+    align-items: center;
+    padding-top: 20px;
+    margin: auto;
+    clear: both;
+    margin-left: auto;
+    border-radius: 30px;
+    height: auto;
+    width: 330px;
+    padding-bottom:10px ;
+
+}
+
+
+    #buttons{
+
+        text-align: center;
+        padding-top: 27px;
+        border-radius: 10px;
+    }
+
+
+    footer{
+
+        border-top:solid 2px#e4e4e4;
+        position: fixed;
+        bottom:0;
+        width: 100%;
+        height: 50px;
+        padding-right: 20px;
+    }
+
+    footer ul li{
+
+        display: inline;
+        color: #8b8686;
+        font-size: 14px;
+        padding: 8px;
+        
+        
+    }
+
+
+    #tx{
+
+        text-align: center;
+        border-radius: 0px;
+        }
+
+        #searchbar {
+            border-radius: 10px;
+            height: 24px;
+            flex: 1;
+            font-family: var(--font-family);
+            font-size: 14px;
+            line-height: 22px;
+            margin: 1;
+            
+            white-space: nowrap;
+            overflow: hidden;
+            width: 360px;
+            margin-top: 0;
+            
+        }
+
+
+        #esquierdo{
+
+            float: left;
+            padding-left: 10px;
+           
+        }
+
+        #direito{
+
+            float: right;
+            padding-right: 15px;
+        }
+
+
+    /*       Modo claro (padrão)      */
+
+        body {
+            background-color: #ffffff;
+            color: #2e2c2c;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+    /* Modo escuro */
+    body.dark-mode {
+        background-color: #2e2c2c;
+        color: #ffffff;
+    }
+
+    /* Botão de alternância */
+    #modeToggle {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        padding: 8px 16px;
+        background-color: #4887ef;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    #modeToggle:hover {
+        background-color: #1a4aa4;
+    }
+
+
+     footer.dark-mode{
+  
+      border-top:solid 3px#18bec199;
+            
+   }
+    
+
+    @media screen and (max-width: 600px){
+        
+
+        footer {
+
+             height:auto;
+             padding: 2px;
+             position: fixed;
+
+        }
+
+        footer ul li{
+
+            display: grid;
+            color: #666666;
+            font-size: 12px;
+            padding: 4px;
+           
+            
+            
+        }
+
+        #esquierdo{
+
+            float: left;
+            padding-left: 0;
+        }
+
+        #direito{
+
+            float: right;
+            padding-right: 14px;
+        }
+
+        #imer img{
+            display: block;
+            align-items: center;
+            padding-top: 20px;
+            margin: auto;
+            clear: both;
+            margin-left: auto;
+            border-radius: 30px;
+            height: auto;
+            width: 350px;
+            padding-bottom:12px ;
+        
+        }
+
+        #searchbar {
+            flex: 1;
+            font-family: var(--font-family);
+            font-size: 1px;
+            line-height: 22px;
+            margin: 1;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 276px;
+            
+        }
+
+        #imer img{
+            display: block;
+            align-items: center;
+            padding-top: 28px;
+            margin: auto;
+            clear: both;
+            margin-left: auto;
+            border-radius: 30px;
+            height: auto;
+            width: 265px;
+            padding-bottom:12px ;
+        
+        }
+   }
+
+
+
+   @media screen and (max-width: 800px){ 
+
+    #esquierdo{
+
+        float: left;
+        padding-left: 4px;
+    }
+
+    #direito{
+        float: right;
+        padding-right: 22px;
+    }
+
+     
+    footer ul li{
+
+        display: grid;
+        font-size: 14;
+        padding: 3px;
+        
+    }
+
+   }
