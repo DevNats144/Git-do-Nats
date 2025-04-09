@@ -75,7 +75,7 @@
 
     footer{
 
-        border-top:solid 2px#e4e4e4;
+        border-top:solid 2px#b3afaf;
         position: fixed;
         bottom:0;
         width: 100%;
@@ -94,10 +94,9 @@
     }
 
 
-    #tx{
-
-        text-align: center;
-        border-radius: 0px;
+        #tx{
+            text-align: center;
+            border-radius: 0px;
         }
 
         #searchbar {
@@ -141,7 +140,7 @@
 
     /* Modo escuro */
     body.dark-mode {
-        background-color: #2e2c2c;
+        background-color: #282626;
         color: #ffffff;
     }
 
@@ -166,7 +165,7 @@
 
      footer.dark-mode{
   
-      border-top:solid 3px#18bec199;
+      border-top:solid 3px#05080899;
             
    }
     
@@ -249,7 +248,7 @@
 
 
 
-   @media screen and (max-width: 800px){ 
+   @media screen and (max-width: 700px){ 
 
     #esquierdo{
 
@@ -270,5 +269,42 @@
         padding: 3px;
         
     }
+
+   }
+
+   @media screen and (max-width: 900px){ 
+
+
+    footer {
+
+        height:100px;
+        padding: 1px;
+        position: fixed;
+
+   }
+
+  footer ul li{
+
+        display: grid;
+        font-size: 10;
+        padding: 1.5px;
+        
+    }
+
+    #imer img{
+        display: block;
+        align-items: center;
+        padding-top: 14px;
+        margin: auto;
+        clear: both;
+        margin-left: auto;
+        border-radius: 30px;
+        height: auto;
+        width: 265px;
+        padding-bottom:12px ;
+    
+    }
+
+    
 
    }

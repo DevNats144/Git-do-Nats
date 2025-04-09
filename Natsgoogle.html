@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google.ao</title>
+    
     <link rel="stylesheet" href="stylegoogle.css">
 </head>
 <body>
@@ -22,21 +23,20 @@
     
 
     <script>
-        const modeToggle = document.getElementById('modeToggle');
-        const body = document.body;
-    
-        // Alterna entre os modos claro e escuro
-        modeToggle.addEventListener('click', () => {
-            body.classList.toggle('dark-mode');
-    
-            // Atualiza o texto do botão
-            if (body.classList.contains('dark-mode')) {
-                modeToggle.textContent = '☀️';
-            } else {
-                modeToggle.textContent = '🌙';
-            }
-        });
-
+            const modeToggle = document.getElementById('modeToggle');
+            const body = document.body;
+        
+            // Alterna entre os modos claro e escuro
+            modeToggle.addEventListener('click', () => {
+                body.classList.toggle('dark-mode');
+        
+                // Atualiza o texto do botão
+                if (body.classList.contains('dark-mode')) {
+                    modeToggle.textContent = '☀️';
+                } else {
+                    modeToggle.textContent = '🌙';
+                }
+            });
     </script>
     
 
@@ -47,12 +47,12 @@
 
       <div id="tx">
         <fom>
-             <input style="border-radius: 12px; height: 24px;" id="searchbar" type="text">
+             <input style="border-radius: 12px; height: 24px;" id="searchbar"  type="text">
         </fom>
       </div>
 
       <div id="buttons">
-       <button>Pesquisar🔎</button> <input type="sumbit" value="Pesquisa Google"style="">
+       <button>Pesquisar🔎</button> <input type="sumbit" value="Pesquisa Google"">
     </div>
 
 
@@ -60,7 +60,7 @@
 
      <footer >
         <ul id="esquierdo">
-             <li><a href="#">Nats Site</a></li>
+             <li><a href="#">Nat's Site</a></li>
              <li><a href="#">Sobre</a></li>
              <li><a href="#">Negócios</a></li>
              <li><a href="#">Como funciona a pesquisa</a></li>
