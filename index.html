@@ -45,20 +45,31 @@
          <img src="imgs/google logo.jpg" alt="">
     </div>
 
-      <div id="tx">
-        <fom>
-             <input style="border-radius: 12px; height: 24px;" id="searchbar"  type="text">
-        </fom>
-      </div>
+ <div id="tx">
+    <form id="searchForm">
+<input id="searchbar" type="text" placeholder="Pesquisar...">    </form>
+</div>
 
-      <div id="buttons">
-       <button>Pesquisar🔎</button> <input type="sumbit" value="Pesquisa Google"">
-    </div>
+    <div id="resultado" style="text-align:center; margin-top:20px;"></div>
+
+    <script>
+    document.getElementById('searchForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const searchbar = document.getElementById('searchbar');
+        const query = searchbar.value.trim();
+        if (query.toLowerCase() === 'cemu') {
+            window.location.href = 'https://g.co/kgs/K964B6v';
+        } else {
+            document.getElementById('resultado').textContent = 'Você pesquisou por: ' + query;
+            searchbar.value = '';
+        }
+    });
+    
+</script>
 
 
 
-
-     <footer >
+     <footer>
         <ul id="esquierdo">
              <li><a href="#">Nat's Site</a></li>
              <li><a href="#">Sobre</a></li>
