@@ -49,20 +49,27 @@
     
     }
 
-#imer img{
-
-    display: block;
+     #imer {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    padding-top: 20px;
-    margin: auto;
-    clear: both;
-    margin-left: auto;
-    border-radius: 30px;
-    height: auto;
-    width: 330px;
-    padding-bottom:10px ;
-
+    justify-content: center;
+    min-height: 160px;
+    margin-top: 2px;
+    margin-bottom: 0px;
 }
+
+
+#imer img {
+    border-radius: 30px;
+    width: 330px;
+    height: auto;
+    margin: 0 ;
+    display: block;
+    margin-left: 160px;
+    padding: 0;
+}
+  
 
 
     #buttons{
@@ -86,7 +93,7 @@
     footer ul li{
 
         display: inline;
-        color: #8b8686;
+        color: #9a9393;
         font-size: 14px;
         padding: 8px;
         
@@ -98,30 +105,54 @@
             text-align: center;
             border-radius: 0px;
         }
+#tx {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0 16px 0;
+}
 
-        #searchbar {
-            border-radius: 10px;
-            height: 24px;
-            flex: 1;
-            font-family: var(--font-family);
-            font-size: 14px;
-            line-height: 22px;
-            margin: 1;
-            
-            white-space: nowrap;
-            overflow: hidden;
-            width: 360px;
-            margin-top: 0;
-            
-        }
+#searchForm {
+    display: flex;
+    align-items: center;
+    background: #f1f3f4;
+    border-radius: 32px;
+    box-shadow: 0 2px 8px rgba(72, 135, 239, 0.08);
+    padding: 6px 16px;
+    max-width: 480px;
+    width: 100%;
+}
 
+#searchbar {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 18px;
+    padding: 8px 12px;
+    width: 100%;
+    border-radius: 32px;
+    color: #222;
+}
 
-        #esquierdo{
+#searchbar::placeholder {
+    color: #888;
+    font-size: 16px;
+    opacity: 1;
+}
 
-            float: left;
-            padding-left: 10px;
-           
-        }
+/* Para modo escuro */
+body.dark-mode #searchForm {
+    background: #222;
+    box-shadow: 0 2px 8px rgba(72, 135, 239, 0.18);
+}
+
+body.dark-mode #searchbar {
+    color: #fff;
+    background: transparent;
+}
+
+body.dark-mode #searchbar::placeholder {
+    color: #bbb;
+}
 
         #direito{
 
@@ -140,7 +171,7 @@
 
     /* Modo escuro */
     body.dark-mode {
-        background-color: #282626;
+        background-color: #040404;
         color: #ffffff;
     }
 
@@ -166,12 +197,16 @@
      footer.dark-mode{
   
       border-top:solid 3px#05080899;
+     
             
    }
+
     
 
     @media screen and (max-width: 600px){
         
+            /*Os itens do Footer no dark Mood responsivo*/
+
 
         footer {
 
@@ -179,19 +214,21 @@
              padding: 2px;
              position: fixed;
 
+
         }
 
+        
         footer ul li{
 
             display: grid;
-            color: #666666;
+            color: #847e7e;
             font-size: 12px;
             padding: 4px;
            
-            
-            
+        
         }
 
+        
         #esquierdo{
 
             float: left;
@@ -244,6 +281,9 @@
             padding-bottom:12px ;
         
         }
+
+
+        
    }
 
 

@@ -15,46 +15,62 @@
             <ul>
                 <li><a href="https://gmail.com">Gmail</a> </li>
                 <li><a href="https://images.google.com">Images</a></li>
-                <li id="in"><a id="https://account.google.com/login">LogIn</a></li>
+                <li id="in"><a href="https://accounts.google.com/">LogIn</a></li>
             </ul>
         </nav>
          <button id="modeToggle">🌙</button>
     </header>
     
 
+    <div id="imer">
+        <img id="googleLogo" src="imgs/google logo.jpg" alt="Google Logo">
+    </div>
+    
+    
+    
     <script>
             const modeToggle = document.getElementById('modeToggle');
-            const body = document.body;
-        
-            // Alterna entre os modos claro e escuro
-            modeToggle.addEventListener('click', () => {
-                body.classList.toggle('dark-mode');
-        
-                // Atualiza o texto do botão
-                if (body.classList.contains('dark-mode')) {
-                    modeToggle.textContent = '☀️';
-                } else {
-                    modeToggle.textContent = '🌙';
-                }
-            });
+    const body = document.body;
+    const googleLogo = document.getElementById('googleLogo');
+
+    modeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+        if (body.classList.contains('dark-mode')) {
+            modeToggle.textContent = '☀️';
+            googleLogo.src = 'imgs/DarkGoogle.jpg'; // imagem para modo escuro 
+        } else {
+            modeToggle.textContent = '🌙';
+            googleLogo.src = 'imgs/google logo.jpg'; // imagem para modo claro
+        }
+    });
     </script>
     
 
     
-    <div id="imer">
-         <img src="imgs/google logo.jpg" alt="">
-    </div>
+    <div id="tx">
+    <form id="searchForm">
+<input id="searchbar" type="text" placeholder="Pesquisar...">    </form>
+</div>
 
-      <div id="tx">
-        <fom>
-             <input style="border-radius: 12px; height: 24px;" id="searchbar"  type="text">
-        </fom>
-      </div>
+<div id="resultado" style="text-align:center; margin-top:20px;"></div>
 
-      <div id="buttons">
-       <button>Pesquisar🔎</button> <input type="sumbit" value="Pesquisa Google"">
-    </div>
+<script>
+    document.getElementById('searchForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const searchbar = document.getElementById('searchbar');
+        const query = searchbar.value.trim();
+        if (query.toLowerCase() === 'cemu') {
+            window.location.href = 'https://g.co/kgs/K964B6v';
+        } else {
+            document.getElementById('resultado').textContent = 'Você pesquisou por: ' + query;
+            searchbar.value = '';
+        }
+    });
+    
+</script>
+    
 
+</script>
 
 
 
