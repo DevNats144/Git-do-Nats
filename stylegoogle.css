@@ -241,14 +241,14 @@ body.dark-mode #searchbar::placeholder {
 
     #nav_bar li {
         display: block;
-        margin: 15px;
+        margin: 5px;
         height: 30px;
     }
 
     #nav_bar #in {
         width: 30%;
         padding: 10px;
-        margin-left: 180px;
+        margin-left: 195px;
     }
 }
 
