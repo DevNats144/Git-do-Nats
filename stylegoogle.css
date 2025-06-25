@@ -200,148 +200,56 @@ body.dark-mode #searchbar::placeholder {
 
     
 
-    @media screen and (max-width: 600px){
-        
-            /*Os itens do Footer no dark Mood responsivo*/
-
-
-        footer {
-
-             height:auto;
-             padding: 2px;
-             position: fixed;
-
-
-        }
-
-        
-        footer ul li{
-
-            display: grid;
-            color: #847e7e;
-            font-size: 12px;
-            padding: 4px;
-           
-        
-        }
-
-        
-        #esquierdo{
-
-            float: left;
-            padding-left: 0;
-        }
-
-        #direito{
-
-            float: right;
-            padding-right: 14px;
-        }
-
-        #imer img{
-            display: block;
-            align-items: center;
-            padding-top: 20px;
-            margin: auto;
-            clear: both;
-            margin-left: auto;
-            border-radius: 30px;
-            height: auto;
-            width: 350px;
-            padding-bottom:12px ;
-        
-        }
-
-        #searchbar {
-            flex: 1;
-            font-family: var(--font-family);
-            font-size: 1px;
-            line-height: 22px;
-            margin: 1;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-            overflow: hidden;
-            width: 276px;
-            
-        }
-
-        #imer img{
-            display: block;
-            align-items: center;
-            padding-top: 28px;
-            margin: auto;
-            clear: both;
-            margin-left: auto;
-            border-radius: 30px;
-            height: auto;
-            width: 265px;
-            padding-bottom:12px ;
-        
-        }
-
-
-        
-   }
-
-
-
-   @media screen and (max-width: 700px){ 
-
-    #esquierdo{
-
-        float: left;
-        padding-left: 4px;
+    @media screen and (max-width: 600px) {
+    #searchForm {
+        max-width: 270px;
+        width: 250px;
+        min-width: 0;
+        margin: 0 auto;
+        padding: 4px 8px;
+        font-size: 16px;
     }
-
-    #direito{
-        float: right;
-        padding-right: 22px;
+    #searchbar {
+        font-size: 16px;
+        padding: 6px 8px;
     }
+    
+    #imer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80px;
+    margin-top: 40px;
+    margin-bottom: 0px;
 
-     
-    footer ul li{
-
-        display: grid;
-        font-size: 14;
-        padding: 3px;
-        
     }
-
-   }
-
-   @media screen and (max-width: 900px){ 
-
-
-    footer {
-
-        height:100px;
-        padding: 1px;
-        position: fixed;
-
-   }
-
-  footer ul li{
-
-        display: grid;
-        font-size: 10;
-        padding: 1.5px;
-        
-    }
-
+    
     #imer img{
-        display: block;
-        align-items: center;
-        padding-top: 14px;
-        margin: auto;
-        clear: both;
-        margin-left: auto;
-        border-radius: 30px;
-        height: auto;
-        width: 265px;
-        padding-bottom:12px ;
-    
+    border-radius: 30px;
+    width: 175px;
+    height: auto;
+    margin: 0 ;
+    display: block;
+    margin-left: 7px;
+    padding: 0;
+}
+    #nav_bar {
+        float: none;
+        text-align: center;
+        margin-top: 10px;
     }
 
-    
+    #nav_bar li {
+        display: block;
+        margin: 15px;
+        height: 30px;
+    }
 
-   }
+    #nav_bar #in {
+        width: 30%;
+        padding: 10px;
+        margin-left: 180px;
+    }
+}
+
+ 
