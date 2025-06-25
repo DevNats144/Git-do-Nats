@@ -20,16 +20,11 @@
         
     }
 
-        a:hover{
-        text-decoration: underline;
-        
-
-        }
-
-
+     
     #nav_bar {
 
         float: right;
+        margin-top: -80px;
     }
 
     #nav_bar li{
@@ -40,14 +35,16 @@
 
     #nav_bar #in{
 
-        background-color: #4887ef;
+        background-color: #b1c5e4;
         margin-right: 9px;
-        padding: 5px 10px;
-        border-radius:3px ;
-        font-weight: bold;
-        color: white;
+        margin-top: 0px;
+        padding: 13px 22px;
+        border-radius:25px ;
+        color: rgb(0, 0, 0);
     
     }
+
+   
 
      #imer {
     display: flex;
@@ -55,7 +52,7 @@
     align-items: center;
     justify-content: center;
     min-height: 160px;
-    margin-top: 2px;
+    margin-top: 85px;
     margin-bottom: 0px;
 }
 
