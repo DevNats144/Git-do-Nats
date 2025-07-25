@@ -1,89 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google.ao</title>
-    
+
     <link rel="stylesheet" href="stylegoogle.css">
 </head>
+
 <body>
 
     <header>
-       
+
         <nav id="nav_bar">
             <ul>
-              
+
                 <li id="in"><a href="https://accounts.google.com/">Entrar</a></li>
             </ul>
         </nav>
-         <button id="modeToggle">🌙</button>
+        <button id="modeToggle">🌙</button>
     </header>
-    
+
 
     <div id="imer">
         <img id="googleLogo" src="imgs/google logo.jpg" alt="Google Logo">
     </div>
-    
-    
-    
+
+
+
     <script>
-            const modeToggle = document.getElementById('modeToggle');
-    const body = document.body;
-    const googleLogo = document.getElementById('googleLogo');
+        const modeToggle = document.getElementById('modeToggle');
+        const body = document.body;
+        const googleLogo = document.getElementById('googleLogo');
 
-    modeToggle.addEventListener('click', () => {
-        body.classList.toggle('dark-mode');
-        if (body.classList.contains('dark-mode')) {
-            modeToggle.textContent = '☀️';
-            googleLogo.src = 'imgs/DarkGoogle.jpg'; // imagem para modo escuro 
-        } else {
-            modeToggle.textContent = '🌙';
-            googleLogo.src = 'imgs/google logo.jpg'; // imagem para modo claro
-        }
-    });
+        modeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            if (body.classList.contains('dark-mode')) {
+                modeToggle.textContent = '☀️';
+                googleLogo.src = 'imgs/DarkGoogle.jpg';
+            } else {
+                modeToggle.textContent = '🌙';
+                googleLogo.src = 'imgs/google logo.jpg';
+            }
+        });
     </script>
-    
 
-    
+
+
     <div id="tx">
-    <form id="searchForm">
-<input id="searchbar" type="text" placeholder="Pesquisar...">    </form>
-</div>
+        <form id="searchForm">
+            <input id="searchbar" type="text" placeholder="Pesquisar...">
+        </form>
+    </div>
 
     <div id="resultado" style="text-align:center; margin-top:20px;"></div>
 
     <script>
-    document.getElementById('searchForm').addEventListener('submit', function(e) {
-        e.preventDefault();
-        const searchbar = document.getElementById('searchbar');
-        const query = searchbar.value.trim();
-        if (query.toLowerCase() === 'cemu') {
-            window.location.href = 'https://g.co/kgs/K964B6v';
-        } else {
-            document.getElementById('resultado').textContent = 'Você pesquisou por: ' + query;
-            searchbar.value = '';
-        }
-    });
-    
-</script>
-
-
-
-     <footer>
-        <ul id="esquierdo">
-             <li><a href="#">Nat's Site</a></li>
-             <li><a href="#">Sobre</a></li>
-             <li><a href="#">Negócios</a></li>
-             <li><a href="#">Como funciona a pesquisa</a></li>
-        </ul>
+        document.getElementById('searchForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const searchbar = document.getElementById('searchbar');
+            const query = searchbar.value.trim();
+            if (query.toLowerCase() === 'cemu') {
+                window.location.href = 'https://g.co/kgs/K964B6v';
+            }
         
+        });
+
+    </script>
+
+
+
+    <footer>
+        <ul id="esquierdo">
+            <li><a href="#">Nat's Site</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Negócios</a></li>
+            <li><a href="#">Como funciona a pesquisa</a></li>
+        </ul>
+
         <ul id="direito">
             <li><a href="#">Privacidade</a></li>
             <li><a href="#">Termos</a></li>
             <li><a href="#">Sobre</a></li>
             <li><a href="#">Configuração</a></li>
-       </ul>
-     </footer>
+        </ul>
+    </footer>
 </body>
+
 </html>
