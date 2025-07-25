@@ -75,13 +75,16 @@ a {
 
 
 footer {
-
-    border-top: solid 2px#b3afaf;
+    border-top: 2px solid #b3afaf;
     position: fixed;
+    left: 0;
+    right: 0;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     height: 50px;
-    padding-right: 20px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 footer ul li {
