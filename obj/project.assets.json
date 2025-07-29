@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nataniel Gomes\\Documents\\For projects Go LIve\\project git.csproj",
+      "projectUniqueName": "C:\\Users\\Nataniel Gomes\\Documents\\The project2\\project git.csproj",
       "projectName": "project git",
-      "projectPath": "C:\\Users\\Nataniel Gomes\\Documents\\For projects Go LIve\\project git.csproj",
+      "projectPath": "C:\\Users\\Nataniel Gomes\\Documents\\The project2\\project git.csproj",
       "packagesPath": "C:\\Users\\Nataniel Gomes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nataniel Gomes\\Documents\\For projects Go LIve\\obj\\",
+      "outputPath": "C:\\Users\\Nataniel Gomes\\Documents\\The project2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nataniel Gomes\\AppData\\Roaming\\NuGet\\NuGet.Config"
