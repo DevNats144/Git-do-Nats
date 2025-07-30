@@ -1,12 +1,24 @@
+#  Clone do Google - Personalizado
 
-👋 Olá, sou @DevNats144
+Um clone da página inicial do Google com algumas personalizações e interatividade, desenvolvido com HTML, CSS e JavaScript. O projeto inclui modo escuro e uma funcionalidade especial que redireciona para o meu LinkedIn  quando o usuário digita "nats" na barra de pesquisa.
 
-👀 Estou realmente interessado em dar minha contribuição em um projeto de código aberto.
+## 🔍 Funcionalidades
 
-🌱 Atualmente estou aprendendo Git e desenvolvimento web
+- Interface semelhante à página inicial do Google.
+- Modo escuro e claro com botão de alternância integrado 🌙/☀️.
+- Redirecionamento personalizado: ao digitar `nats`, o usuário é levado ao [LinkedIn de Nataniel Gomes](https://www.linkedin.com/in/nataniel-gomes-330a94342/).
+- Layout responsivo e leve.
 
-💞️ Estou procurando colaborar em projetos reais
+## 🌙 Modo Escuro
 
-📫 Como entrar em contato comigo " natanielg73@gmail.com "
+- Ao ativar o modo escuro, o fundo da página muda e o logotipo do Google é substituído por uma versão adaptada para o tema escuro.
+- Botão de alternância no canto superior direito.
 
-⚡ Crescimento contínuo nesta área.
+## 💡 Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+
+## 📁 Estrutura de Arquivos
+
