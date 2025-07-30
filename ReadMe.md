@@ -1,6 +1,6 @@
-# Google Clone - Página Inicial Personalizada
+# Clone do Google - Personalizado
 
-Um clone da página inicial do Google com algumas personalizações e interatividade, desenvolvido com HTML, CSS e JavaScript. O projeto inclui modo escuro e uma funcionalidade especial que redireciona para o LinkedIn do autor quando o usuário digita "nats" na barra de pesquisa.
+Um clone da página inicial do Google com algumas personalizações e interatividade, desenvolvido com HTML, CSS e JavaScript. O projeto inclui modo escuro e uma funcionalidade especial que redireciona para o meu LinkedIn quando o usuário digita "nats" na barra de pesquisa.
 
 ## 🔍 Funcionalidades
 
